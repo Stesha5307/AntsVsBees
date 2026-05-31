@@ -1,0 +1,47 @@
+# 🐜 Ants vs. SomeBees
+
+Ants vs. SomeBees is a Python tower-defense game inspired by the mechanics of *Plants vs. Zombies*. The objective is to defend your colony from waves of invading bees by strategically placing ants with unique abilities throughout the map.
+
+Each ant serves a different purpose. Some generate resources, some attack enemies from a distance, and others provide defensive support. As the game progresses, players must balance resource management, positioning, and unit selection to stop increasingly challenging bee attacks before they reach the colony.
+
+## Gameplay
+
+* Deploy ants to defend tunnels from incoming bees.
+* Generate food resources to place additional ants.
+* Combine different ant types to create effective defenses.
+* Survive all waves of bees to win the game.
+* Prevent bees from reaching the colony's home base.
+
+## Running the Game Locally
+
+### Prerequisites
+
+* Python 3 installed on your machine
+
+### Launch the Game
+
+From the project directory, run:
+
+```bash
+python3 gui.py
+```
+
+This will open the graphical interface and start the game.
+
+## Project Structure
+
+```text
+ants.py      # Core game logic and insect classes
+gui.py       # Graphical user interface
+ucb.py       # Utility functions
+assets/      # Images, sounds, and game assets
+```
+
+## Technologies Used
+
+* Python 3
+* Object-Oriented Programming
+* Event-Driven Game Logic
+* GUI-Based Simulation
+
+Enjoy defending the colony!
